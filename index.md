@@ -1,67 +1,76 @@
 ---
-title: AI‑supported Accessibility Testing
+title: Swiss Testing Day 2026 – KI als Ansatz von Barrierefreiheits‑Tests – Workshop
 ---
 
-# AI‑supported Accessibility Testing  
-**Swiss Testing Day – Workshop Resources**
+# Swiss Testing Day 2026 – KI als Ansatz von Barrierefreiheits‑Tests  
+**Workshop – Conference Resources**
 
-This page contains **public resources** from the Swiss Testing Day workshop  
-*“AI‑supported Accessibility Testing”*.
+Diese Seite enthält **öffentliche Workshop‑Ressourcen** vom  
+**Swiss Testing Day 2026** zum Thema:
 
-It includes:
-- Curated links to **semi‑automated accessibility tools**
-- **Reusable LLM prompts** for accessibility testing
-- Guidance on **responsible and realistic usage**
+**„KI als Ansatz von Barrierefreiheits‑Tests“**
 
-> ✅ All content is intentionally public and can be reused after the conference.
+Enthalten sind:
+- Kuratierte Links zu **semi‑automatisierten Barrierefreiheits‑Tools**
+- **Wiederverwendbare LLM‑Prompts** für Accessibility‑Tests
+- Hinweise zu **Grenzen, Risiken und verantwortungsvollem Einsatz**
+
+> ✅ Alle Inhalte sind bewusst **öffentlich** und auch **nach der Konferenz** nutzbar.
 
 ---
 
-## 1. Semi‑automated Accessibility Tools
+## 1. Semi‑automatisierte Barrierefreiheits‑Tools
 
-> ⚠️ These tools **support** accessibility testing – they do **not replace** manual testing or user testing.
+> ⚠️ Diese Tools **unterstützen** Barrierefreiheits‑Tests,  
+> ersetzen jedoch **keine manuellen Tests** oder Tests mit Assistive Technologies.
 
-### Browser‑based / Developer Tools
-- **axe DevTools**  
-  https://www.deque.com/axe/devtools/
+### Browser‑Erweiterungen & Developer‑Tools
+
+- **WAVE – Web Accessibility Evaluation Tool**  
+  (Browser‑Extension für Chrome, Edge, Firefox)  
+  👉 https://wave.webaim.org/
+
+- **axe DevTools (Browser Extension)**  
+  👉 https://www.deque.com/axe/devtools/
+
+- **ARC Toolkit (Browser Extension)**  
+  👉 https://www.tpgi.com/arc-platform/arc-toolkit/
 
 - **Lighthouse (Chrome DevTools)**  
-  https://developer.chrome.com/docs/lighthouse/
+  👉 https://developer.chrome.com/docs/lighthouse/
 
-- **ARC Toolkit**  
-  https://www.tpgi.com/arc-platform/arc-toolkit/
+> 🔎 **Hinweis:**  
+> Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
 
-- **WAVE Evaluation Tool**  
-  https://wave.webaim.org/
+### Screenreader (für manuelle Validierung)
 
-### Screen Readers (for validation)
-- **NVDA (Windows, free)**  
+- **NVDA (Windows, kostenlos)**  
   https://www.nvaccess.org/
 
-- **VoiceOver (macOS / iOS, built‑in)**  
+- **VoiceOver (macOS / iOS, integriert)**  
   https://support.apple.com/guide/voiceover/welcome/mac
 
 ---
 
-## 2. LLM Prompt Library
+## 2. LLM‑Prompt‑Bibliothek
 
-> 🧠 These prompts are **starting points**.  
-> Always validate results manually and with assistive technologies.
+> 🧠 Die folgenden Prompts sind **Startpunkte**.  
+> Ergebnisse müssen immer **fachlich geprüft** und **manuell verifiziert** werden.
 
 ---
 
-### WCAG 1.1.1 – Non‑text Content
+### WCAG 1.1.1 – Nicht‑Text‑Inhalte
 
 ```text
-You are an accessibility testing expert.
+Du bist Expert:in für digitale Barrierefreiheit.
 
-Analyze the following HTML and identify potential violations of
-WCAG 2.2 – Success Criterion 1.1.1 (Non‑text Content).
+Analysiere den folgenden HTML‑Code im Hinblick auf
+WCAG 2.2 – Erfolgskriterium 1.1.1 (Nicht‑Text‑Inhalte).
 
-For each issue:
-- Explain why it is an accessibility problem
-- Describe the user impact
-- Suggest an accessible alternative
+Für jedes identifizierte Problem:
+- Erkläre, warum es ein Barrierefreiheitsproblem ist
+- Beschreibe die Auswirkung auf Nutzer:innen
+- Schlage eine barrierefreie Alternative vor
 
 HTML:
-<PASTE HTML HERE>
+<HIER HTML EINFÜGEN>
