@@ -5,21 +5,18 @@ title: Swiss Testing Day 2026 – KI als Ansatz von Barrierefreiheits‑Tests �
 # Swiss Testing Day 2026 – KI als Ansatz von Barrierefreiheits‑Tests  
 **Workshop – Conference Resources**
 
-Diese Seite enthält **öffentliche Workshop‑Ressourcen** vom  
-**Swiss Testing Day 2026** zum Thema:
-
-**„KI als Ansatz von Barrierefreiheits‑Tests“**
+Diese Seite enthält **öffentliche Ressourcen** zu dem Workshop mit dem Titel **„KI als Ansatz von Barrierefreiheits‑Tests“**
 
 Enthalten sind:
-- Kuratierte Links zu **semi‑automatisierten Barrierefreiheits‑Tools**
-- **Wiederverwendbare LLM‑Prompts** für Accessibility‑Tests
+- Eine Auswahl an Links zu **semi-automatisierten und automatisierten Barrierefreiheits‑Tools**
+- **Wiederverwendbare LLM‑Prompts** für Barrierefreiheits-Tests
 - Hinweise zu **Grenzen, Risiken und verantwortungsvollem Einsatz**
 
 > ✅ Alle Inhalte sind bewusst **öffentlich** und auch **nach der Konferenz** nutzbar.
 
 ---
 
-## 1. Semi‑automatisierte Barrierefreiheits‑Tools
+## 1. Barrierefreiheits‑Test Tools
 
 > ⚠️ Diese Tools **unterstützen** Barrierefreiheits‑Tests,  
 > ersetzen jedoch **keine manuellen Tests** oder Tests mit Assistive Technologies.
@@ -28,16 +25,16 @@ Enthalten sind:
 
 - **WAVE – Web Accessibility Evaluation Tool**  
   (Browser‑Extension für Chrome, Edge, Firefox)  
-  👉 https://wave.webaim.org/
+  https://wave.webaim.org/extension/
+
+- **axe-core (Open Source)**
+  https://www.deque.com/axe/axe-core/
 
 - **axe DevTools (Browser Extension)**  
-  👉 https://www.deque.com/axe/devtools/
-
-- **ARC Toolkit (Browser Extension)**  
-  👉 https://www.tpgi.com/arc-platform/arc-toolkit/
+  https://www.deque.com/axe/devtools/
 
 - **Lighthouse (Chrome DevTools)**  
-  👉 https://developer.chrome.com/docs/lighthouse/
+  https://developer.chrome.com/docs/lighthouse/
 
 > 🔎 **Hinweis:**  
 > Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
