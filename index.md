@@ -27,17 +27,19 @@ Enthalten sind:
   (Browser‑Extension für Chrome, Edge, Firefox)  
   https://wave.webaim.org/extension/
 
-- **axe-core (Open Source)**
+- **axe-core (Open Source Library)**
   https://www.deque.com/axe/axe-core/
 
-- **axe DevTools (Browser Extension)**  
+- **axe DevTools (Lizenz)**  
   https://www.deque.com/axe/devtools/
 
 - **Lighthouse (Chrome DevTools)**  
   https://developer.chrome.com/docs/lighthouse/
 
+
 > 🔎 **Hinweis:**  
 > Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
+
 
 ### Screenreader (für manuelle Validierung)
 
