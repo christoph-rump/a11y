@@ -11,17 +11,19 @@ Enthalten sind:
 - **Wiederverwendbare LLM‑Prompts** für Barrierefreiheits-Tests
 - Hinweise zu **Grenzen, Risiken und verantwortungsvollem Einsatz**
 
+>
 > ✅ Alle Inhalte sind bewusst **öffentlich** und auch **nach der Konferenz** nutzbar.
-
+>
+<br><br>
 ---
 
 ## Web Content Accessibility Guidelines (WCAG)
 
 - **WCAG Version 2.1**
-  https://www.w3.org/TR/WCAG21/
+  [Link zu WCAG 2.1 Spezifikation](https://www.w3.org/TR/WCAG21/)
 - **WCAG Version 2.2**
-  https://www.w3.org/TR/WCAG22/
-
+  [Link zu WCAG 2.2 Spezifikation](https://www.w3.org/TR/WCAG22/)
+<br><br>
 ---
 
 ## 1. Barrierefreiheits‑Test Tools
@@ -31,39 +33,45 @@ Enthalten sind:
 
 ### Browser‑Erweiterungen & Developer‑Tools
 
-- **WAVE – Web Accessibility Evaluation Tool**  
-  (Browser‑Extension für Chrome, Edge, Firefox)  
-  https://wave.webaim.org/extension/
+- **WAVE – Web Accessibility Evaluation Tool**
+[Link zu WAVE Browser Plugin für Chrome, Edge, Firefox](https://wave.webaim.org/extension/)
+<br>
 
 - **axe-core (Open Source Library)**
-  https://www.deque.com/axe/axe-core/
+[Link zu axe-core](https://www.deque.com/axe/axe-core/)
+<br>
 
 - **axe DevTools (Lizenz)**  
-  https://www.deque.com/axe/devtools/
+[Link zu axe DevTools](https://www.deque.com/axe/devtools/)
+<br>
 
 - **Lighthouse (Chrome DevTools)**  
-  https://developer.chrome.com/docs/lighthouse/
-
+[Link zu Google Lighthouse Chrome Plugin](https://developer.chrome.com/docs/lighthouse/)
+<br>
 
 > 🔎 **Hinweis:**  
 > Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
 
-
+<br><br>
 ### Screenreader (für manuelle Validierung)
 
 - **NVDA (Windows, kostenlos)**  
-  https://www.nvaccess.org/
+  [Link zu VDA](https://www.nvaccess.org/)
+  <br>
 
 - **VoiceOver (macOS / iOS, integriert)**  
-  https://support.apple.com/guide/voiceover/welcome/mac
+[Link zu VoiceOver](https://support.apple.com/guide/voiceover/welcome/mac)
+<br>
 
+<br><br>
 ---
 
 ## 2. LLM‑Prompt‑Bibliothek
 
 > 🧠 Die folgenden Prompts sind **Startpunkte**.  
 > Ergebnisse müssen immer **fachlich geprüft** und **manuell verifiziert** werden.
-
+>
+<br>
 ---
 
 ### Prompt-Blueprint
