@@ -11,15 +11,15 @@ Enthalten sind:
 - **Wiederverwendbare LLM‑Prompts** für Barrierefreiheits-Tests
 - Hinweise zu **Grenzen, Risiken und verantwortungsvollem Einsatz**
 
->
+> 
 > ✅ Alle Inhalte sind bewusst **öffentlich** und auch **nach der Konferenz** nutzbar.
->
+> 
 <br>
 
 ---
 
 ## Web Content Accessibility Guidelines (WCAG)
-
+ 
 - **WCAG Version 2.1**: 
   [Link zu WCAG 2.1 Spezifikation](https://www.w3.org/TR/WCAG21/)
 - **WCAG Version 2.2**: 
@@ -29,54 +29,58 @@ Enthalten sind:
 ---
 
 ## 1. Barrierefreiheits‑Test Tools
-
+ 
 > ⚠️ Diese Tools **unterstützen** Barrierefreiheits‑Tests,  
 > ersetzen jedoch **keine manuellen Tests** oder Tests mit Assistive Technologies.
-> <br>
+> 
 
 ### Browser‑Erweiterungen & Developer‑Tools
 
 - **WAVE – Web Accessibility Evaluation Tool**:
   [Link zu WAVE Browser Plugin für Chrome, Edge, Firefox](https://wave.webaim.org/extension/)
 <br>
-
+ 
 - **axe-core (Open Source Library)**: 
   [Link zu axe-core](https://www.deque.com/axe/axe-core/)
 <br>
-
+ 
 - **axe DevTools (Lizenz)**: 
   [Link zu axe DevTools](https://www.deque.com/axe/devtools/)
 <br>
-
+ 
 - **Lighthouse (Chrome DevTools)**:
   [Link zu Google Lighthouse Chrome Plugin](https://developer.chrome.com/docs/lighthouse/)
 <br>
-
-> <br>
+ 
+> 
 > 🔎 **Hinweis:**  
 > Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
-> <br>
+> 
 
 <br>
 ### Screenreader (für manuelle Validierung)
 
-- **NVDA (Windows, kostenlos)**  
+- **NVDA (Windows, kostenlos)** 
   [Link zu VDA](https://www.nvaccess.org/)
-  <br>
+ <br>
 
 - **VoiceOver (macOS / iOS, integriert)**  
 [Link zu VoiceOver](https://support.apple.com/guide/voiceover/welcome/mac)
 <br>
 
-<br><br>
+- **TalkBack (Android, integriert)** 
+- [Link zu Informationen zu TalkBack](https://support.google.com/accessibility/android/answer/6007100?hl%3Den)
+<br>
+
+<br> 
 ---
 
 ## 2. LLM‑Prompt‑Bibliothek 
 
-> <br>
+> 
 > 🧠 Die folgenden Prompts sind **Startpunkte**.  
 > Ergebnisse müssen immer **fachlich geprüft** und **manuell verifiziert** werden.
-> <br>
+> 
 
 ---
 
