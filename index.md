@@ -4,12 +4,11 @@ title: Swiss Testing Day 2026 – KI als Ansatz zur Reduktion von aufwändigen B
 
 # Swiss Testing Day 2026 – KI als Ansatz zur Reduktion von aufwändigen Barrierefreiheits-Tests
 
-Diese Seite enthält **öffentliche Materialien** zu dem Workshop mit dem Titel **„KI als Ansatz von Barrierefreiheits‑Tests“**
+Diese Seite enthält **Materialien** zu dem Workshop mit dem Titel **„KI als Ansatz zur Reduktion von aufwändigen Barrierefreiheits-Tests“**
 
 Enthalten sind:
 - Eine Auswahl an Links zu **semi-automatisierten und automatisierten Barrierefreiheits‑Tools**
 - **Wiederverwendbare LLM‑Prompts** für Barrierefreiheits-Tests
-- Hinweise zu **Grenzen, Risiken und verantwortungsvollem Einsatz**
 
 > 
 > ✅ Alle Inhalte sind bewusst **öffentlich** und auch **nach der Konferenz** nutzbar.
@@ -104,9 +103,11 @@ Enthalten sind:
 
 ---
 
-### WCAG 3.1.1 – Sprache einer Webseite 
+### WCAG 3.1.1 – Language of Page
 
 [Link zu WCAG Kriterium 3.1.1 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html)
+
+#### Prompt auf English
 
 **Role:** Accessibility Expert specializing in WCAG 2.1 Success Criterion  3.1.1 Language of Page, internationalization best practices, and assistive‑technology‑friendly language configuration.
 
@@ -134,13 +135,49 @@ Enthalten sind:
 
 **Scope:** language determinability and correctness; exclude design/layout/code suggestions unrelated to SC 3.1.1.
 
-**Self-check:** Verify all constraints before final answer.
+**Self-check:** Verify all constraints before final answer. 
+
+<br> 
+
+#### Prompt auf Deutsch 
+
+**Rolle:** Accessibility Expert*in spezialisiert auf WCAG Version 2.1 und Erfolgskriterium 3.1.1 Sprache der Seite, Internationalisierungs Best Practices, und assistiver-Technologie-freundlicher Sprachkonfiguration. 
+
+**Ziel:** Stelle sicher, dass die von der Webseite definierte Standard Sprache korrekt identifiziert wird, programmatisch bestimmt werden kann, und korrekte Aussprache unterstützt, mit Verständnis für alle Nutzer und assistive Technologien. 
+
+**Aufgabe:**
+- Analysiere die URL unter folgender URL [URL eingeben]
+- Fokussiere dich ausschliesslich auf WCAG 2.1 Erfolgskriterium 3.1.1, Sprache der Seite.
+- Analysiere, ob die Webseite ihre Standardsprache korrekt definiert.
+- Identifiziere fehlende, inkorrekte, oder nicht-Standard lang Attribute.
+- Prüfe, ob die deklarierte Sprache mit der vorrangig dominierten Inhaltssprache übereinstimmt.
+- Erkenne invalide, mehrdeutige, or falsch angewendete Sprachcodes.
+- Schlage genaue, korrekte Sprachattribut Werte vor, gemäss valider IETF BCP‑47 Codes.
+- Verifiziere das die primäre Sprache programmatisch determiniert werden kann.
+- Falls eine Diskrepanz besteht zwischen deklarierter und tatsächlicher Sprache, dann schlage den korrekten lang Wert vor.
+
+**Anforderungen:** 
+- Analysierte nur die Seitenlevel Sprach Deklaration (nicht mögliche Sprachwechsel).
+- Review den eigentlichen Seiteninhalt um zu validieren welche Sprache predominant ist.
+
+**Einschränkungen:** Deine gesamte Antwort darf nur aus einer einzelnen Markdown Tabelle mit folgenden Spalten bestehen:
+| Element / Kontext | Aktueller Stand | Problem | Vorgeschlagene Änderung | Erläuterung | Auswirkung auf Endnutzer |
+
+**Format/Stil:** Simpel, analytisch, prägnant. 
+
+**Scope:** Bestimmung der Sprache und Korrektheit; exkludiere Design, Layout und Code Empfehlungen, sowie Empfehlungen abseits von Kriterium 3.1.1. 
+
+**Kritische Selbsteinschätzung:** Verifiziere und validiere deine Analyse bevor du ein finales Ergebnis ausgibst.
+
+<br> 
 
 ---
 
 ### WCAG 3.2.2 – Labels oder Instructions
 
 [Link zu WCAG Kriterium 3.1.1 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
+
+#### Prompt auf English
 
 **Role:** Accessibility Expert specializing in WCAG 2.1 Success Criterion  3.3.2 Labels or Instructions, cognitive‑accessibility best practices, and form‑interaction clarity.
 
@@ -170,3 +207,38 @@ Enthalten sind:
 **Scope:** label clarity and instruction sufficiency; exclude design/layout/code suggestions unrelated to SC 3.3.2.
 
 **Self-check:** Verify all constraints before final answer.
+ 
+<br> 
+
+#### Prompt auf Deutsch 
+
+**Rolle:** Accessibility Expert*in spezialisiert auf WCAG Version 2.1 und Erfolgskriterium 3.3.2 Labels und Instruktionen, kognitiven Barrierefreiheits Best Practices, und klarem Verständnis für Bedienelement Interaktionen. 
+
+**Ziel:** Stelle sicher, dass alle Bedienelemente und Eingabeelemente klare, sichtbare und verständliche Labels oder Instruktionen vorweisen, so dass Nutzer wissen welche Informationen benötigt werden und wie diese einzugeben sind.
+
+**Aufgabe:**
+- Analysiere die URL unter folgender URL [URL eingeben]
+- Focus exclusively on WCAG 2.1 SC 3.3.2 Labels or Instructions.
+- Identify all input fields, controls, and form elements that require user input.
+- Check whether each input provides a visible and understandable label.
+- Identify missing, unclear, ambiguous, or overly minimal labels.
+- Detect missing instructions when specific formats, rules, or constraints apply (e.g., date formats, password rules).
+- Identify cases where labels exist programmatically but are not visible to all users, which fails SC 3.3.2.
+- Suggest concise, clear labels or instructions that improve understanding.
+- Evaluate whether image‑based labels are understandable or need additional text support.
+- Propose corrected or enhanced labels/instructions where necessary.
+
+**Anforderungen:**
+- Analysiere nur Labels und Instruktionen für Eingabefelder und Elemente, nicht die programmatische Assoziation (abgedeckt durch Kriterium 1.3.1 und 4.1.2).
+- Review die tatsächliche visuelle Darstellung und verifiziere das Labels sichtbar sind, klar, und ausreichend beschrieben.
+
+**Einschränkungen:** Deine gesamte Antwort darf nur aus einer einzelnen Markdown Tabelle mit folgenden Spalten bestehen:
+| Element / Kontext | Aktueller Stand | Problem | Vorgeschlagene Änderung | Erläuterung | Auswirkung auf Endnutzer |
+
+**Format/Stil:** Simpel, analytisch, prägnant. 
+
+**Scope:** Klarheit der Labels und Instruktionen; exkludiere Design, Layout und Code Empfehlungen, sowie Empfehlungen abseits von Kriterium 3.3.2. 
+
+**Kritische Selbsteinschätzung:** Verifiziere und validiere deine Analyse bevor du ein finales Ergebnis ausgibst.
+
+<br> 
