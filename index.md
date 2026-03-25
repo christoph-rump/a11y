@@ -1,4 +1,5 @@
 ---
+lang: de
 title: Swiss Testing Day 2026 – KI als Ansatz zur Reduktion von aufwändigen Barrierefreiheits-Tests – Workshop
 ---
 
@@ -11,8 +12,7 @@ Enthalten sind:
 - **Wiederverwendbare LLM‑Prompts** für Barrierefreiheits-Tests
 
 > 
-> ✅ Alle Inhalte sind bewusst **öffentlich** und auch **nach der Konferenz** nutzbar.
-> 
+> ✅ Alle Inhalte sind auch **nach der Konferenz** nutzbar.
 <br>
 
 ---
@@ -30,7 +30,7 @@ Enthalten sind:
 ## 1. Barrierefreiheits‑Test Tools
  
 > ⚠️ Diese Tools **unterstützen** Barrierefreiheits‑Tests,  
-> ersetzen jedoch **keine manuellen Tests** oder Tests mit Assistive Technologies.
+> ersetzen jedoch **keine manuellen Tests** oder Tests mit assistiven Technologien.
 > 
 
 ### Browser‑Erweiterungen & Developer‑Tools
@@ -52,15 +52,14 @@ Enthalten sind:
 <br>
  
 > 
-> 🔎 **Hinweis:**  
-> Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
+> 🔎 **Hinweis:**  Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
 > 
 
 <br>
 ### Screenreader (für manuelle Validierung)
 
 - **NVDA (Windows, kostenlos)** 
-  [Link zu VDA](https://www.nvaccess.org/)
+  [Link zu NVDA](https://www.nvaccess.org/)
  <br>
 
 - **VoiceOver (macOS / iOS, integriert)**  
@@ -83,7 +82,7 @@ Enthalten sind:
 
 ---
 
-### Prompt-Blueprint
+### 2.1 Prompt-Blueprint
 
 **Rolle:** Die Rolle, die eingenommen werden soll, z.B. die einer Accessibility Expert*in für das WCAG 2.1 Kriterium 3.3.2.
 
@@ -107,7 +106,7 @@ Enthalten sind:
 
 [Link zu WCAG Kriterium 3.1.1 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html)
 
-#### Prompt auf English
+#### <ins>Prompt auf English</ins> 
 
 **Role:** Accessibility Expert specializing in WCAG 2.1 Success Criterion  3.1.1 Language of Page, internationalization best practices, and assistive‑technology‑friendly language configuration.
 
@@ -139,7 +138,7 @@ Enthalten sind:
 
 <br> 
 
-#### Prompt auf Deutsch 
+#### <ins>Prompt auf Deutsch</ins> 
 
 **Rolle:** Accessibility Expert*in spezialisiert auf WCAG Version 2.1 und Erfolgskriterium 3.1.1 Sprache der Seite, Internationalisierungs Best Practices, und assistiver-Technologie-freundlicher Sprachkonfiguration. 
 
@@ -177,7 +176,7 @@ Enthalten sind:
 
 [Link zu WCAG Kriterium 3.1.1 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
 
-#### Prompt auf English
+#### <ins>Prompt auf English</ins> 
 
 **Role:** Accessibility Expert specializing in WCAG 2.1 Success Criterion  3.3.2 Labels or Instructions, cognitive‑accessibility best practices, and form‑interaction clarity.
 
@@ -210,7 +209,7 @@ Enthalten sind:
  
 <br> 
 
-#### Prompt auf Deutsch 
+#### <ins>Prompt auf Deutsch</ins> 
 
 **Rolle:** Accessibility Expert*in spezialisiert auf WCAG Version 2.1 und Erfolgskriterium 3.3.2 Labels und Instruktionen, kognitiven Barrierefreiheits Best Practices, und klarem Verständnis für Bedienelement Interaktionen. 
 
@@ -218,15 +217,15 @@ Enthalten sind:
 
 **Aufgabe:**
 - Analysiere die URL unter folgender URL [URL eingeben]
-- Focus exclusively on WCAG 2.1 SC 3.3.2 Labels or Instructions.
-- Identify all input fields, controls, and form elements that require user input.
-- Check whether each input provides a visible and understandable label.
-- Identify missing, unclear, ambiguous, or overly minimal labels.
-- Detect missing instructions when specific formats, rules, or constraints apply (e.g., date formats, password rules).
-- Identify cases where labels exist programmatically but are not visible to all users, which fails SC 3.3.2.
-- Suggest concise, clear labels or instructions that improve understanding.
-- Evaluate whether image‑based labels are understandable or need additional text support.
-- Propose corrected or enhanced labels/instructions where necessary.
+- Fokussiere dich ausschliesslich auf WCAG 2.1 Erfolgskriterium 3.3.2, Labels oder Instruktionen.
+- Identifiziere alle Eingabefelder, Bedienelemente und Formelemente die einen Nutzer Input benötigen.
+- Prüfe, ob jeder benötigte Input ein sichtbares und verständliches Label vorweist.
+- Identifiziere fehlende, unklare, mehrdeutige oder zu kurzen/minimalen Label.
+- Erkenne fehlende Instruktionen, when spezifische Formate, Regeln oder Einschränkungen zutreffen (z.B. Datum Format, Passwort oder E-Mail Regeln).
+- Identifiziere Fälle bei denen Label programmatisch existieren, aber nicht sichtbar für alle Nutzer sind, was das Kriterium 3.3.2 fehlschlägen lässt.
+- Schlage prägnante, klare Labels oder Instruktionen vor, die das Verständnis verbessern.
+- Evaluiere, ob Bild-basierte Labels verständlich sind oder zusätzliche Text Unterstützung benötigen.
+- Schlage korrigierte oder verbesserte Labels und/oder Instruktionen vor, wo immer es nötig ist.
 
 **Anforderungen:**
 - Analysiere nur Labels und Instruktionen für Eingabefelder und Elemente, nicht die programmatische Assoziation (abgedeckt durch Kriterium 1.3.1 und 4.1.2).
@@ -242,3 +241,11 @@ Enthalten sind:
 **Kritische Selbsteinschätzung:** Verifiziere und validiere deine Analyse bevor du ein finales Ergebnis ausgibst.
 
 <br> 
+---
+
+### 2.2 Aufgabe zum Prompting
+
+Schreibe einen Prompt zu einem der beiden folgenden Themen und wende ihn auf eine von dir ausgewählte Webseite an 
+- Auswirkung von fehlendem oder nicht geeignetem Alternativ-Text: WCAG Kriterium 1.1.1 Non-text Content [Link zu WCAG-Kriterium 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content) oder zu 
+- Auswirkungen von fehlendem oder nicht geeignetem Text bei Links und Buttons: WCAG Kriterium 2.4.4 Link Purpose [Link zu WCAG-Kriterium 2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html)
+
