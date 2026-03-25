@@ -14,45 +14,50 @@ Enthalten sind:
 >
 > ✅ Alle Inhalte sind bewusst **öffentlich** und auch **nach der Konferenz** nutzbar.
 >
-<br><br>
+<br>
+
 ---
 
 ## Web Content Accessibility Guidelines (WCAG)
 
-- **WCAG Version 2.1**
+- **WCAG Version 2.1**: 
   [Link zu WCAG 2.1 Spezifikation](https://www.w3.org/TR/WCAG21/)
-- **WCAG Version 2.2**
+- **WCAG Version 2.2**: 
   [Link zu WCAG 2.2 Spezifikation](https://www.w3.org/TR/WCAG22/)
 <br><br>
+
 ---
 
 ## 1. Barrierefreiheits‑Test Tools
 
 > ⚠️ Diese Tools **unterstützen** Barrierefreiheits‑Tests,  
 > ersetzen jedoch **keine manuellen Tests** oder Tests mit Assistive Technologies.
+> <br>
 
 ### Browser‑Erweiterungen & Developer‑Tools
 
-- **WAVE – Web Accessibility Evaluation Tool**
-[Link zu WAVE Browser Plugin für Chrome, Edge, Firefox](https://wave.webaim.org/extension/)
+- **WAVE – Web Accessibility Evaluation Tool**:
+  [Link zu WAVE Browser Plugin für Chrome, Edge, Firefox](https://wave.webaim.org/extension/)
 <br>
 
-- **axe-core (Open Source Library)**
-[Link zu axe-core](https://www.deque.com/axe/axe-core/)
+- **axe-core (Open Source Library)**: 
+  [Link zu axe-core](https://www.deque.com/axe/axe-core/)
 <br>
 
-- **axe DevTools (Lizenz)**  
-[Link zu axe DevTools](https://www.deque.com/axe/devtools/)
+- **axe DevTools (Lizenz)**: 
+  [Link zu axe DevTools](https://www.deque.com/axe/devtools/)
 <br>
 
-- **Lighthouse (Chrome DevTools)**  
-[Link zu Google Lighthouse Chrome Plugin](https://developer.chrome.com/docs/lighthouse/)
+- **Lighthouse (Chrome DevTools)**:
+  [Link zu Google Lighthouse Chrome Plugin](https://developer.chrome.com/docs/lighthouse/)
 <br>
 
+> <br>
 > 🔎 **Hinweis:**  
 > Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
+> <br>
 
-<br><br>
+<br>
 ### Screenreader (für manuelle Validierung)
 
 - **NVDA (Windows, kostenlos)**  
@@ -66,35 +71,38 @@ Enthalten sind:
 <br><br>
 ---
 
-## 2. LLM‑Prompt‑Bibliothek
+## 2. LLM‑Prompt‑Bibliothek 
 
+> <br>
 > 🧠 Die folgenden Prompts sind **Startpunkte**.  
 > Ergebnisse müssen immer **fachlich geprüft** und **manuell verifiziert** werden.
->
-<br>
+> <br>
+
 ---
 
 ### Prompt-Blueprint
 
-**Rolle:** Accessibility Expert*in für WCAG2.1 Kriterium 3.3.2 […]
+**Rolle:** Die Rolle, die eingenommen werden soll, z.B. die einer Accessibility Expert*in für das WCAG 2.1 Kriterium 3.3.2.
 
-**Ziel:** Sicherstellen, dass alle Steuerelemente klar verständliche Instruktionen und Text darbieten […]
+**Ziel:** Beschreibt das generelle Ziel, idealerweise eine gute Beschreibung des Kriteriums, z.B. Sicherstellen, dass alle Steuerelemente klar verständliche Instruktionen und Text darbieten.
 
-**Aufgabe:** Analysiere die Webseite mit URL [einfügen] zu Kriterium 3.3.2 mit folgenden Prüfschritten […]
+**Aufgabe:** Die eigentliche Aufgabe, d.h. die Analyse der Webseite mit der eingegebenen URL zu einem Kriterium mit einer Reihe von Prüfschritten.
 
-**Anforderungen:** Prüfe nur Kriterium 3.3.2 und nicht 1.3.1 oder 4.1.2, gib eine Begründung ab
+**Anforderungen:** Konkretisiere die Prüfung hinsichtlich des Kriteriums. Z.B. nur Fokus auf Kriterium 3.3.2 und nicht ähnliche Kriterien, plus Abgabe einer Begründung.
 
-**Einschränkungen:** Strukturiere die Antwort in einer einzigen Tabelle mit folgenden Spalten […]
+**Einschränkungen:** Kann gut genutzt werden, um die Antwort einzuschränken, z.B. soll die Antwort in einer einzigen Tabelle mit folgenden Spalten strukturiert werden […].
 
-**Format/Stil:** Analytisch, präzise
+**Format/Stil:** Welcher Stil soll ausgegeben werden, welcher "Ton", z.B. analytisch, sehr präzise.
 
-**Scope:** Fokussiere dich auf Klarheit der Anweisungen, exkludiere Design, Layout und Code Empfehlungen
+**Scope:** Der Rahmen und Umfang, z.B. fokussiere dich auf Klarheit der Anweisungen, exkludiere Design, Layout und Code Empfehlungen.
 
-**Kritische Selbsteinschätzung:** Überprüfe die Ergebnisse anhand des Prompts kritisch, vor Darstellung des finalen Ergebnisses
+**Kritische Selbsteinschätzung:** Überprüfe die Ergebnisse anhand des Prompts kritisch, vor Darstellung des finalen Ergebnisses.
 
 ---
 
-### WCAG 3.1.1 – Sprache einer Webseite
+### WCAG 3.1.1 – Sprache einer Webseite 
+
+[Link zu WCAG Kriterium 3.1.1 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html)
 
 **Role:** Accessibility Expert specializing in WCAG 2.1 Success Criterion  3.1.1 Language of Page, internationalization best practices, and assistive‑technology‑friendly language configuration.
 
@@ -127,6 +135,8 @@ Enthalten sind:
 ---
 
 ### WCAG 3.2.2 – Labels oder Instructions
+
+[Link zu WCAG Kriterium 3.1.1 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
 
 **Role:** Accessibility Expert specializing in WCAG 2.1 Success Criterion  3.3.2 Labels or Instructions, cognitive‑accessibility best practices, and form‑interaction clarity.
 
