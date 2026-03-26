@@ -17,7 +17,7 @@ Enthalten sind:
 
 ---
 
-## Web Content Accessibility Guidelines (WCAG)
+## 1. Web Content Accessibility Guidelines (WCAG)
  
 - **WCAG Version 2.1**: 
   [Link zu WCAG 2.1 Spezifikation](https://www.w3.org/TR/WCAG21/)
@@ -27,13 +27,13 @@ Enthalten sind:
 
 ---
 
-## 1. Barrierefreiheits‑Test Tools
+## 2. Barrierefreiheits‑Test Tools
  
 > ⚠️ Diese Tools **unterstützen** Barrierefreiheits‑Tests,  
 > ersetzen jedoch **keine manuellen Tests** oder Tests mit assistiven Technologien.
 > 
 
-### Browser‑Erweiterungen & Developer‑Tools
+### 2.1 Browser‑Erweiterungen & Developer‑Tools
 
 - **WAVE – Web Accessibility Evaluation Tool**:
   [Link zu WAVE Browser Plugin für Chrome, Edge, Firefox](https://wave.webaim.org/extension/)
@@ -54,9 +54,9 @@ Enthalten sind:
 > 
 > 🔎 **Hinweis:**  Auch bei Browser‑Extensions gilt: Ergebnisse **immer manuell validieren**.
 > 
+<br> 
 
-<br>
-### Screenreader (für manuelle Validierung)
+### 2.2 Screenreader (für manuelle Validierung)
 
 - **NVDA (Windows, kostenlos)** 
   [Link zu NVDA](https://www.nvaccess.org/)
@@ -73,7 +73,7 @@ Enthalten sind:
 <br> 
 ---
 
-## 2. LLM‑Prompt‑Bibliothek 
+## 3. LLM‑Prompting 
 
 > 
 > 🧠 Die folgenden Prompts sind **Startpunkte**.  
@@ -82,7 +82,7 @@ Enthalten sind:
 
 ---
 
-### 2.1 Prompt-Blueprint
+### 3.1 Prompt-Blueprint
 
 **Rolle:** Die Rolle, die eingenommen werden soll, z.B. die einer Accessibility Expert*in für das WCAG 2.1 Kriterium 3.3.2.
 
@@ -102,7 +102,7 @@ Enthalten sind:
 
 ---
 
-### WCAG 3.1.1 – Language of Page
+### a.) WCAG 3.1.1 – Language of Page
 
 [Link zu WCAG Kriterium 3.1.1 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html)
 
@@ -172,9 +172,9 @@ Enthalten sind:
 
 ---
 
-### WCAG 3.2.2 – Labels oder Instructions
+### b.) WCAG 3.3.2 – Labels oder Instructions
 
-[Link zu WCAG Kriterium 3.1.1 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
+[Link zu WCAG Kriterium 3.3.2 auf der W3C Seite](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
 
 #### <ins>Prompt auf English</ins> 
 
@@ -243,9 +243,22 @@ Enthalten sind:
 <br> 
 ---
 
-### 2.2 Aufgabe zum Prompting
+### 3.2 Aufgabe zum Prompting
 
 Schreibe einen Prompt zu einem der beiden folgenden Themen und wende ihn auf eine von dir ausgewählte Webseite an 
 - Auswirkung von fehlendem oder nicht geeignetem Alternativ-Text: WCAG Kriterium 1.1.1 Non-text Content [Link zu WCAG-Kriterium 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content) oder zu 
 - Auswirkungen von fehlendem oder nicht geeignetem Text bei Links und Buttons: WCAG Kriterium 2.4.4 Link Purpose [Link zu WCAG-Kriterium 2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html)
 
+<br> 
+---
+
+## 4. Kontaktdaten und Artikel auf Elevate Tech
+
+**Kontaktdaten:** 
+- [Link zu LinkedIn Profile von Chris](https://www.linkedin.com/in/christoph-rump/) 
+- [E-Mail schreiben an Chris](mailto:christoph.rump@accenture.com)
+
+**Artikel auf Elevate Tech (Medium.com):** 
+- [Link zu Artikel mit dem Titel "Does AI offer an efficient solution for time-consuming Accessibility Testing" auf Medium.com](https://medium.com/elevate-tech/does-ai-offer-an-efficient-solution-for-time-consuming-accessibility-testing-and-to-what-extent-can-e90443e0ebdd)
+
+<br>
