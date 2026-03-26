@@ -252,7 +252,7 @@ Schreibe einen Prompt zu einem der beiden folgenden Themen und wende ihn auf ein
 <br> 
 ---
 
-## 4. Kontaktdaten und Artikel auf Elevate Tech
+## 4. Kontaktdaten und Weiterführende Links
 
 **Kontaktdaten:** 
 - [Link zu LinkedIn Profile von Chris](https://www.linkedin.com/in/christoph-rump/) 
@@ -260,5 +260,11 @@ Schreibe einen Prompt zu einem der beiden folgenden Themen und wende ihn auf ein
 
 **Artikel auf Elevate Tech (Medium.com):** 
 - [Link zu Artikel mit dem Titel "Does AI offer an efficient solution for time-consuming Accessibility Testing" auf Medium.com](https://medium.com/elevate-tech/does-ai-offer-an-efficient-solution-for-time-consuming-accessibility-testing-and-to-what-extent-can-e90443e0ebdd)
+
+**Informationen von Deque (axe)**
+- [Link zu Deque University und Statistiken](https://dequeuniversity.com/resources/)
+
+**Informationen von WebAIM**
+- [Link zu WebAIM Millionen Statistik](https://webaim.org/projects/million/)
 
 <br>
