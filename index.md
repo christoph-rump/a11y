@@ -245,9 +245,11 @@ Enthalten sind:
 
 ### 3.2 Aufgabe zum Prompting
 
-Schreibe einen Prompt zu einem der beiden folgenden Themen und wende ihn auf eine von dir ausgewählte Webseite an 
+Schreibe einen Prompt zu einem der beiden folgenden Themen und wende ihn auf eine von dir ausgewählte Webseite an, oder verwende die Demo Webseiten:
 - Auswirkung von fehlendem oder nicht geeignetem Alternativ-Text: WCAG Kriterium 1.1.1 Non-text Content [Link zu WCAG-Kriterium 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content) oder zu 
 - Auswirkungen von fehlendem oder nicht geeignetem Text bei Links und Buttons: WCAG Kriterium 2.4.4 Link Purpose [Link zu WCAG-Kriterium 2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html)
+- Demo Webseiten von Deque: [Link zu Demos](https://dequeuniversity.com/demo/) 
+
 
 <br> 
 ---
